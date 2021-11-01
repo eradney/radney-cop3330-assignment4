@@ -1,0 +1,9 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class StartApp {
++start(Stage stage)
++main(String[] args)
+}
+
+@enduml

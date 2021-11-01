@@ -1,0 +1,40 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ListTaskControl {
+-Stage stage
+-Scene scene
+-Parent root
++Button add
++Button remove
++DatePicker datePick
++TextField tasktxt
++ListView<Task> listData
++Pane goBack
++MenuItem saveList
++MenuItem loadList
++Button editTaskDesc
++Button removeTask
++Button complete
++Button editTaskDate
++MenuItem allTasks
++MenuItem completeTasks
++MenuItem incompleteTasks
++Button goHome
++ObservableList<Task> List
++FileChooser fileChooser
+
++addTask (Event e)
++clickGoHome(Actionevent actionevent)
++clickSaveButton(Actionevent actionevent)
++clickLoadButton(Actionevent actionevent)
++clickEditTask(Actionevent actionevent)
++clickRemoveTask(Actionevent actionevent)
++clickCompleteTask(Actionevent actionevent)
++clickAllTasks(Actionevent actionevent)
++clickCompletedTasks(Actionevent actionevent)
++clickIncompleteTasks(Actionevent actionevent)
++clickRemoveList(Actionevent actionevent)
+}
+
+@enduml

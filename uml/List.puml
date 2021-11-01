@@ -1,0 +1,10 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class List {
+-String listName
++String getListName()
++setListName(String listName)
+}
+
+@enduml
